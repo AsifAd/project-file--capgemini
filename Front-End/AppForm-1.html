@@ -20,54 +20,51 @@
     
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+    
 </head>
 <body>
     
     <!-- Application Form For Loan -->
-
+    
     <!-- navbar Starts -->
     <div    id="main">
         <div>
             <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top pt-2 pb-1" >
-                    <a href="landing.html" class="navbar-brand font-weight-bold"><span class="AKK">AKK</span>HB</a>
-                    <button class="navbar-toggler btn-dark" id="nav-toggle-button" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon  " ></span>
-                    </button>
-                    <div class="collapse navbar-collapse font-weight-normal" id="navLinks">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="AppForm-1.html" class="nav-link py-1 px-3">APPLY FOR LOAN</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="login.html" class="nav-link py-1 px-3">LOGIN</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="aboutus.html" class="nav-link py-1 px-3">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a href="contact.html" class="nav-link py-1 px-3">CONTACT US</a>
-                                </li>
-                        </ul>
-                    </div>
-                </nav>
+                <a href="landing.html" class="navbar-brand font-weight-bold"><span class="AKK">AKK</span>HB</a>
+                <button class="navbar-toggler btn-dark" id="nav-toggle-button" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon  " ></span>
+                </button>
+                <div class="collapse navbar-collapse font-weight-normal" id="navLinks">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="AppForm-1.html" class="nav-link py-1 px-3">APPLY FOR LOAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link py-1 px-3">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="aboutus.html" class="nav-link py-1 px-3">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link py-1 px-3">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
         <!-- navbar ends-->
+
+        <!-- form strats -->
         
         <div class="container-fluid bg" >
             <div class="row justify-content-center ">
                 <div class="container col-md-10 ">
-                    <form class="form-container text-white mb-5" >
-                        
+                    <form class="form-container text-white mb-5" >  
                         <!-- Contact Information Starts -->
-                        
                         <h1 class=" display-4 LoanForm border-bottom pb-1 font-weight-normal"><i class="fas fa-file-invoice mr-2"></i>Loan Application Form</h1>
                         <h1 class=" personal_info mt-3">Personal Deatails</h1>
-        
-        
-        
+                         
                         <!-- Title starts -->
-                        
                         <div class="Title mb-3">
                             <label for="validationTitle">Title</label>
                             <select class="custom-select custom-select-sm">
@@ -77,7 +74,6 @@
                                 <option value="3">Ms</option>
                             </select>
                         </div>
-                        
                         <!-- Title ends -->
                         
                         
@@ -132,18 +128,13 @@
                                     <option value="1">0 - 1 Year</option>
                                     <option value="2">1 - 2 Years</option>
                                     <option value="3">3 - 4 Years</option>
-                                    <option value="4">5+ Years</option>
-                                    
+                                    <option value="4">5+ Years</option>   
                                 </select>
                             </div>
-                            
                             <!-- number of years stayed ends -->
                         </div> 
                         <!-- three properties in between  DOB , Gender and years stayed-->
-                        
-                        
-                        
-                        
+                    
                         <!-- Email and Phone number starts-->
                         
                         <div class="form-row">
@@ -158,10 +149,7 @@
                         </div>
                         
                         <!-- Email and Phone number  -->
-                        
-                        
-                        
-                        
+
                         <!-- Rows of Address Starts -->
                         <div class="form-group">
                             <label for="inputAddress">Street Address</label>
@@ -171,33 +159,33 @@
                             <label for="inputAddress2">Street Address Line 2</label>
                             <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                         </div>
-        
+                        
                         <!-- Rows of Address  Ends-->
-        
+                        
                         <!-- City,State and Country starts -->
                         <div class="form-row  ">
                             <div class="col-md-3 mb-3">
                                 <label for="validationDefault03">City</label>
                                 <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
                             </div>
-        
+                            
                             <div class="col-md-3 mb-3">
-                                    <label for="validationDefault05">Pincode</label>
-                                    <input type="text" class="form-control" id="validationDefault05" placeholder="Pincode" required>
+                                <label for="validationDefault05">Pincode</label>
+                                <input type="text" class="form-control" id="validationDefault05" placeholder="Pincode" required>
                             </div>
-        
+                            
                             <div class="col-md-3 mb-3">
                                 <label for="validationDefault04">State</label>
                                 <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
                             </div>
-                           
+                            
                             <div class="col-md-3 mb-3">
                                 <label for="validationDefault06">Country</label>
                                 <input type="text" class="form-control" id="validationDefault06" placeholder="country" required>
                             </div>
                         </div>
                         <!-- City,State and Country ends -->
-                    
+                        
                         
                         <!-- check and submit button starts -->
                         <div class="form-group">
@@ -208,10 +196,7 @@
                                 </label>
                             </div>
                         </div>
-                        
-                        
-                        
-                        
+        
                         <div class="form-row text-center">
                             <div class="col-12">
                                 <a href="AppForrm-2.html">
@@ -220,42 +205,42 @@
                                 </a>
                             </div>
                         </div>
-                      <!-- check and submit button starts -->
+                        <!-- check and submit button starts -->
                         
                         
                         <!-- Contact Information ends -->
-                        
                     </form>
-                
                 </div>
             </div>
         </div>
-        
     </div>
-      <!-- footer starts -->
-      <div class="container-fluid  d-flex flex-column mt-5" id="footer">
-            <footer id="sticky-footer" class="py-1 bg-dark text-white-50 fixed-bottom">
-                <div class="container text-center">
-                    <small>Copyright &copy; HyperText Assassins</small>
-                </div>
-            </footer>
-        </div>
-        
-        <!-- footer starts -->
+
+    <!-- form ends -->
+
+    <!-- footer starts -->
+    <div class="container-fluid  d-flex flex-column mt-5" id="footer">
+        <footer id="sticky-footer" class="py-1 bg-dark text-white-50 fixed-bottom">
+            <div class="container text-center">
+                <small>Copyright &copy; HyperText Assassins</small>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- footer starts -->
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    
     <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $("#mainNavbar");
-                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                });
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             });
-        </script>
+        });
+    </script>
 </body>
 </html>

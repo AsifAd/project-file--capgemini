@@ -1,14 +1,14 @@
 /* navbar css */
 
-#nav-toggle-button{
+#nav-toggle-button {
     background: rgba(0, 0, 0, 0.719);
-    
+
 }
 
 #mainNavbar {
     font-size: 1.5rem;
-    font-weight: 100;    
-    border-bottom: 1px solid whitesmoke; 
+    font-weight: 100;
+    border-bottom: 1px solid whitesmoke;
 
 }
 
@@ -19,26 +19,22 @@
 #mainNavbar .nav-link:hover {
     color: white;
     background: rgba(0, 0, 0, 0.719);
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-.AKK{
+.AKK {
     color: rgb(30, 144, 255);
 }
 
 #mainNavbar .navbar-brand {
     color: white;
-
-    
     font-size: 1.5rem;
     background: rgba(0, 0, 0, 0.719);
-    padding:0px 10px;
-
+    padding: 0px 10px;
     border-radius: 10px;
-
 }
 
-#mainNavbar .navbar-brand:hover{
+#mainNavbar .navbar-brand:hover {
     transform: scale(1.2);
 }
 
@@ -46,6 +42,7 @@
     background: whitesmoke;
     transition: background 500ms;
 }
+
 /* -------------------------------------------- */
 
 body {
@@ -66,12 +63,6 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 0px;
-    /* border-left: 1px solid white; */
-    /* border-right: 1px solid white; */
-
-    /* background: rgba(2, 0, 1, 0.733); */
-
-
     background: rgba(0, 0, 0, 0.719);
 
 }
@@ -88,23 +79,22 @@ body {
     }
 }
 
-.LoanForm{
+.LoanForm {
     display: inline;
 }
 
-.LoanForm:hover{
+.LoanForm:hover {
     color: dodgerblue;
 }
 
 input:hover {
-    transform: scale(1.05); 
-  }
+    transform: scale(1.05);
+}
 
-  label:hover{
+label:hover {
     color: dodgerblue;
 }
 
-.sub-button:hover{
-    transform: scale(1.1); 
+.sub-button:hover {
+    transform: scale(1.1);
 }
-

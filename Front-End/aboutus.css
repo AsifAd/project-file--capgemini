@@ -1,15 +1,12 @@
 /* navbar css */
 
 #nav-toggle-button{
-    background: rgba(0, 0, 0, 0.719);
-    
+    background: rgba(0, 0, 0, 0.719);  
 }
 
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;    
-    /* border-bottom: 1px solid whitesmoke;  */
-
 }
 
 #mainNavbar .nav-link {
@@ -28,12 +25,9 @@
 
 #mainNavbar .navbar-brand {
     color: white;
-
-    
     font-size: 1.5rem;
     background: rgba(0, 0, 0, 0.719);
     padding:0px 10px;
-
     border-radius: 10px;
 
 }
@@ -49,6 +43,7 @@
 /* -------------------------------------------- */
 .header-margin{
     margin-top: 55px;
+
 }
 .card:hover{
     transform: scale(1.2);
