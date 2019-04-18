@@ -1,0 +1,107 @@
+
+/* navbar css */
+
+#nav-toggle-button{
+    background: rgba(0, 0, 0, 0.719);
+    
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+    border-bottom: 1px solid whitesmoke; 
+
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.719);
+    border-radius: 10px; 
+}
+
+.AKK{
+    color: rgb(30, 144, 255);
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+
+    
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.719);
+    padding:0px 10px;
+
+    border-radius: 10px;
+
+}
+
+#mainNavbar .navbar-brand:hover{
+    transform: scale(1.2);
+}
+
+
+.navbar.scrolled {
+    background: whitesmoke;
+    transition: background 500ms;
+}
+/* -------------------------------------------- */
+
+body {
+    background-image: url(imgs/header.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 200%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.form-container {
+    position: absolute;
+    top: 15vh;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px;
+
+
+    background: rgba(0, 0, 0, 0.719);
+
+}
+
+@media only screen and (max-width : 678px) {
+    .body {
+        background-size: 300%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .form-container {
+        top: 35vh;
+    }
+}
+
+.LoanForm{
+    display: inline;
+}
+
+.LoanForm:hover{
+    color: dodgerblue;
+}
+
+input:hover {
+    transform: scale(1.05); 
+  }
+
+  label:hover{
+    color: dodgerblue;
+}
+
+.sub-button:hover{
+    transform: scale(1.1); 
+}

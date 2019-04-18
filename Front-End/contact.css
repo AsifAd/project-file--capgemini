@@ -1,0 +1,93 @@
+body{
+    background-color: #25274d;
+}
+.contact{
+    padding: 4%;
+    height: 600px;
+}
+.col-md-3{
+    background-color: rgba(0, 0, 0, .78);
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+/* ---------------------------------------------- */
+/* navbar css */
+
+#nav-toggle-button{
+    background: rgba(0, 0, 0, 0.719);
+    
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+    /* border-bottom: 1px solid whitesmoke;  */
+
+}
+
+#mainNavbar .nav-link {
+    color: whitesmoke;
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.719);
+    border-radius: 10px; 
+}
+
+.AKK{
+    color: rgb(30, 144, 255);
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.719);
+    padding:0px 10px;
+
+    border-radius: 10px;
+
+}
+
+#mainNavbar .navbar-brand:hover{
+    transform: scale(1.2);
+}
+
+.navbar.scrolled {
+    /* background: white; */
+    /* background: rgba(0, 0, 0, 0.789); */
+    background: #25274d;
+
+
+    transition: background 500ms;
+}
+/* ----------------------navbar ends---------------------- */

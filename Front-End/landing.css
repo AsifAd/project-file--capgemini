@@ -1,0 +1,196 @@
+/* footer  */
+#sticky-footer {
+    flex-shrink: none;
+
+}
+
+/* -------------------------------- */
+
+/* center content */
+/* .middle-content {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+/* center content */
+
+
+
+/* header slider starts  */
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    margin-top: 54.4px;
+
+}
+
+/* header slider ends  */
+
+/* navbar css */
+
+#nav-toggle-button {
+    background: rgba(0, 0, 0, 0.719);
+
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    /* border-bottom: 1px solid whitesmoke;  */
+
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.719);
+    border-radius: 10px;
+}
+
+.AKK {
+    color: rgb(30, 144, 255);
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+
+
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.719);
+    padding: 0px 10px;
+
+    border-radius: 10px;
+
+}
+
+#mainNavbar .navbar-brand:hover {
+    transform: scale(1.2);
+}
+
+.navbar.scrolled {
+    background: white;
+    transition: background 500ms;
+}
+
+/* -------------------------------------------- */
+
+#header {
+    overflow: hidden;
+}
+
+/* img{
+    
+        min-height : 100%;
+        min-width : 100%;
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+} */
+
+.img-1 {
+    background-size: cover;
+    position: relative;
+    bottom: 65%;
+}
+
+.img-2 {
+    background-size: cover;
+    position: relative;
+    bottom: 80%;
+}
+
+.img-3 {
+    background-size: cover;
+    position: relative;
+    bottom: 15%;
+}
+
+.shadow-lg {
+    background-color: rgba(0, 0, 0, 0.593);
+    /* color: rgb(30, 144, 255); */
+
+}
+
+.red {
+    color: rgb(255, 0, 0);
+
+}
+
+.sky-blue {
+    color: rgb(30, 144, 255);
+
+}
+
+/* -------------loan cards----------------------- */
+#first-card {
+    background-color: #25274d;
+    padding-bottom: 75px;
+}
+
+#second-card {
+    background-color: #25454d;
+}
+
+#third-card {
+    background-color: #474d25;
+}
+
+#forth-card {
+    background-color: #4d2a25;
+}
+
+.contact {
+    padding: 4%;
+    height: 450px;
+}
+
+.col-md-3 {
+    background-color: rgba(0, 0, 0, .78);
+    padding: 4%;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
+
+.contact-info {
+    margin-top: 10%;
+}
+
+.contact-info img {
+    margin-bottom: 15%;
+}
+
+.contact-info h2 {
+    margin-bottom: 10%;
+}
+
+.col-md-9 {
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
