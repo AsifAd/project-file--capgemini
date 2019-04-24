@@ -35,6 +35,9 @@ body{
     font-weight: 600;
     width: 25%;
 }
+.contact-form button:hover{
+    transform: scale(.95);
+}
 .contact-form button:focus{
     box-shadow:none;
 }
