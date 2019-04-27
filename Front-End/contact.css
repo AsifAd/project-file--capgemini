@@ -94,3 +94,6 @@ body{
     transition: background 500ms;
 }
 /* ----------------------navbar ends---------------------- */
+input:hover {
+    transform: scale(1.01); 
+  } 
