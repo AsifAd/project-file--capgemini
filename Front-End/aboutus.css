@@ -33,7 +33,7 @@
 }
 
 #mainNavbar .navbar-brand:hover{
-    transform: scale(1.2);
+    transform: scale(1.02);
 }
 
 .navbar.scrolled {
@@ -46,5 +46,8 @@
 
 }
 .card:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
+}
+.fas:hover{
+    transform: scale(1.3);
 }
