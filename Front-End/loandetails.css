@@ -1,0 +1,53 @@
+.login-card-purple {
+    background: linear-gradient(145deg, #673AB7, #9C27B0);
+}
+.login-card-light {
+    background: linear-gradient(145deg, #eee, #fff);
+}
+
+/* navbar css */
+
+#nav-toggle-button{
+    background: rgba(0, 0, 0, 0.719);
+    
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;   
+    /* border-bottom: 1px solid whitesmoke;  */
+    /* box-shadow: 30px; */
+    
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.719);
+    border-radius: 10px; 
+}
+
+.AKK{
+    color: rgb(30, 144, 255);
+}
+
+#mainNavbar .navbar-brand:hover{
+    transform: scale(1.2);
+}
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.719);
+    padding:0px 10px;
+    border-radius: 10px;
+
+}
+
+
+.navbar.scrolled {
+    background: white;
+    transition: background 500ms;
+}
