@@ -4,7 +4,7 @@ Technology used to Build this front end part of  Project
 
 2.  CSS3                              [  for styling            ]
 
-3   .JS                                   [  just little bit         ]
+3.  JS                                   [  just little bit         ]
 
 4.  Bootstrap4                     [  CSS framework    ]
 
