@@ -4,7 +4,11 @@
 .login-card-light {
     background: linear-gradient(145deg, #eee, #fff);
 }
-
+/* cards css */
+#hover-card:hover{
+    background: linear-gradient(145deg, #b24592,  #f15f79);
+    transform: scale(1.05);
+}
 /* button css */
 div .btn-success{
     padding: 12px 120px;

@@ -5,6 +5,11 @@
     background: linear-gradient(145deg, #eee, #fff);
 }
 
+/* cards css */
+#hover-card:hover{
+    background: linear-gradient(145deg, #7b4397 , #dc2430);
+    transform: scale(1.05);
+}
 /* button css */
 div .btn-success{
     padding: 12px 120px;
