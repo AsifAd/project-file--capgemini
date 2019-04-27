@@ -1,0 +1,13 @@
+Technology used to Build this front end part of  Project
+
+1.  HTML5                          [   for markup          ]
+
+2.  CSS3                              [  for styling            ]
+
+3   .JS                                   [  just little bit         ]
+
+4.  Bootstrap4                     [  CSS framework    ]
+
+5.  Font-awosome               [ for icons               ]
+
+6.  Animation.css                 [ CSS framework(for Animation)    ]
