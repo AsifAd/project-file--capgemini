@@ -5,6 +5,14 @@
     background: linear-gradient(145deg, #eee, #fff);
 }
 
+/* button css */
+div .btn-success{
+    padding: 12px 120px;
+    font-size: 22px;
+}
+div .btn-success:hover{
+    transform: scale(.95);
+}
 /* navbar css */
 
 #nav-toggle-button{
