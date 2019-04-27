@@ -1,6 +1,10 @@
 .login-card-purple {
     background: linear-gradient(145deg, #673AB7, #9C27B0);
 }
+.login-card-purple:hover{
+    transform: scale(1.01);
+    background: linear-gradient(to bottom, #734b6d, #42275a);
+}
 .login-card-light {
     background: linear-gradient(145deg, #eee, #fff);
 }
